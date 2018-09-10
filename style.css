@@ -1,0 +1,236 @@
+
+body {
+    width: 100%;
+    text-align: center;
+    font: 1em/1.5 Calibri, Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+.main-header {
+    padding-top: 170px;
+    margin: 0px;
+    background: url('img/blurryfirework.jpeg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 0.5em solid black;
+
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    text-shadow: 0 1px 0 #E0162B,
+                 0 2px 0 #E0162B,
+                 0 3px 0 #E0162B,
+                 0 4px 0 #E0162B,
+                 0 5px 0 #E0162B,
+                 0 6px 1px black,
+                 0 0 5px black,
+                 0 1px 3px blue,
+                 0 3px 5px blue,
+                 0 5px 10px black,
+                 0 10px 10px blue,
+                 0 20px 20px black;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.355em; 
+  }
+
+  nav {
+    background-color: black;
+    font-size: 2em;
+  }
+
+ 
+
+  a {
+    color: white;
+    font-size: 1.12em;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold; 
+  }
+
+  .subtitle,
+  .phone-number {
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    
+    
+  }
+
+  .subtitle {
+    border-top: black solid 5px;
+    background:#E0162B;
+  }
+
+  .phone-number {
+    border-bottom: black solid 5px;
+    background:white;
+    margin-bottom: 2em;
+  }
+
+    h3 {
+        font-size: 1.5em;
+        margin: 0px; 
+}
+  .info {
+    background: #0052A5;
+    font-size: 1.5em; 
+    border-bottom: 3px solid black; 
+    color: white; 
+  }
+  .featured, 
+  .new { 
+    background: #E0162B; 
+    font-size: 1.25em;
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black; 
+    color: white; 
+  }
+
+  h2 {
+      text-align: center;
+      margin-left: 1.75em;
+  }
+
+  li {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+.firework1,
+.firework2,
+.firework3,
+.firework4 {
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+footer {
+    color: white;
+    background-color: rgb(71, 71, 71); 
+}
+
+  .footer-text {
+      margin: 2px;
+  }
+
+
+
+/* Contact Us Page Styles */
+
+#contact_nav {
+    font-size: 01em;
+
+}
+
+#contact_header {
+    font-size: 0.6em;
+    padding-top: 8em;
+    margin-bottom: 0em; 
+    height: 25em;
+}
+
+.column {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+
+}
+#map,
+#contact_form {
+flex: 1; 
+background-color: #0052A5;
+}
+
+#map {
+    border-right: black solid 2px;
+}
+
+#contact_form {
+    flex: 1; 
+    border-left: black solid 2px;
+}
+
+.column_title {
+    padding-top: 1em; 
+    color: white; 
+}
+
+fieldset {
+    background: url('img/sparkler.jpeg') no-repeat center;
+    width: 90%;
+    margin: auto;  
+}
+input,
+textarea {
+    width: 40%;
+    box-sizing: border-box; 
+    margin: 4px;
+    padding: 4px;
+}
+label {
+    color: white; 
+}
+
+#submit_button {
+    background-color: #E0162B;
+    color: white; 
+    margin-top: 1.5em;
+}
+
+#sparkler {
+    width: 75%;
+}
+
+  /* Media Styles */
+
+  @media (min-width: 769px) {
+    .main-header { 
+        height: 400px;
+
+    }
+
+    nav {
+        display: flex; 
+        flex-grow: 1; 
+        flex-wrap: wrap; 
+
+    }
+    nav a {
+        flex-grow: 1; 
+    }
+    
+    h1 {
+        font-size: 8em;
+        margin-top: 0em;
+    }
+
+    .columns {
+        display: flex; 
+    }
+
+    .featured,
+    .new {
+        flex-grow: 1; 
+
+    }
+
+  }
+
+  @media (min-width: 200px) {
+
+    nav {
+        display: flex; 
+    }
+    nav a {
+        flex-grow: 1; 
+    }
+
+  }
