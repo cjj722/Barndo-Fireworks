@@ -2,7 +2,7 @@
 body {
     width: 100%;
     text-align: center;
-    font: 1em/1.5 Calibri, Arial, sans-serif;
+    font: 1em/1.5 'Calibri', Arial, sans-serif;
     display: flex; 
     flex-direction: column; 
     min-height: 100vh; 
@@ -10,7 +10,7 @@ body {
 .main-header {
     padding-top: 170px;
     margin: 0px;
-    background: url('img/blurryfirework.jpeg') no-repeat center;
+    background: url('../img/blurryfirework.jpeg') no-repeat center;
     background-size: cover;
     width: 100%;
     border-bottom: 0.5em solid black;
@@ -40,7 +40,7 @@ h1 {
 
   nav {
     background-color: black;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
  
@@ -52,6 +52,10 @@ h1 {
     display: inline-block;
     font-weight: bold; 
   }
+
+  a:hover {
+    background-color: #0052A5; 
+}
 
   .subtitle,
   .phone-number {
@@ -92,9 +96,9 @@ h1 {
     color: white; 
   }
 
-  h2 {
+  .frontpage_h2_titles {
       text-align: center;
-      margin-left: 1.75em;
+      margin-left: 1.45em;
   }
 
   li {
@@ -102,15 +106,21 @@ h1 {
     padding-bottom: 5px;
   }
 
-.firework1,
-.firework2,
-.firework3,
-.firework4 {
+#firework1,
+#firework2,
+#firework3,
+#firework4 {
     padding-left: 6em;
     padding-right: 6em;
     padding-top: 1em;
     padding-bottom: 3em;
 }
+
+.grow:hover {
+    transform: scale(1.5);
+    transition-duration: 1.3s;
+}
+
 
 footer {
     color: white;
@@ -126,14 +136,14 @@ footer {
 /* Contact Us Page Styles */
 
 #contact_nav {
-    font-size: 01em;
+    font-size: 1.25em;
 
 }
 
 #contact_header {
     font-size: 0.6em;
-    padding-top: 8em;
-    margin-bottom: 0em; 
+    padding-top: 20em;
+
     height: 25em;
 }
 
@@ -164,7 +174,7 @@ background-color: #0052A5;
 }
 
 fieldset {
-    background: url('img/sparkler.jpeg') no-repeat center;
+    background: url('../img/sparkler.jpeg') no-repeat center;
     width: 90%;
     margin: auto;  
 }
@@ -189,7 +199,37 @@ label {
     width: 75%;
 }
 
-  /* Media Styles */
+/* Why Black Cat Page Styles */
+
+#blackcat_nav {
+    margin-bottom: 0em; 
+}
+
+#blackcat_text {
+    text-align: left;
+    width: 60%; 
+    margin: auto; 
+    color: rgb(61, 61, 61); 
+}
+
+.blackcat_titles {
+    text-align: center; 
+}
+
+#blackcat_video {
+    margin: auto;
+    padding-top: 2em; 
+    padding-bottom: 1em; 
+    
+}
+
+
+
+
+
+
+
+/* Media Styles */
 
   @media (min-width: 769px) {
     .main-header { 
